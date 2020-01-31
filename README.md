@@ -1,4 +1,4 @@
-# Banter_Pack
+# Banter Packs
 Adds Banters to the BioWare NPCs of Baldur's Gate II! 
 The Mod is compatible with all Baldur's Gate II games (BGII, BGT, BGII:EE, EET).
 
