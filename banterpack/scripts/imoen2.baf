@@ -1,0 +1,176 @@
+IF
+InParty(Myself)
+InParty("Edwin")
+!Dead("Edwin")
+Gender("Edwin",FEMALE)
+Dead("C6Bodhi")
+Global("PGImoTweaksEdwina","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("PGImoTweaksEdwina","LOCALS",1)
+RealSetGlobalTimer("PGImoTweaksEdwinaTimer","LOCALS",400)
+END
+
+IF
+Global("PGImoTweaksEdwina","LOCALS",1)
+RealGlobalTimerExpired("PGImoTweaksEdwinaTimer","LOCALS")
+InParty(Myself)
+InParty("Edwin")
+!Dead("Edwin")
+See("Edwin")
+Gender("Edwin",FEMALE)
+CombatCounter(0)
+    !See([ENEMY])
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck("Edwin",CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("PGImoTweaksEdwina","LOCALS",2)
+Dialogue("Edwin")
+END
+
+IF
+!Global("PGImoTweaksEdwina","LOCALS",3)
+GlobalGT("TalkedDegardan","GLOBAL",3)
+Dead("C6Bodhi")
+InParty(Myself)
+InParty("Edwin")
+!Dead("Edwin")
+Gender("Edwin",MALE)
+Global("PGImoTweaksPostEdwina","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("PGImoTweaksPostEdwina","LOCALS",1)
+RealSetGlobalTimer("PGImoTweaksPostEdwinaTimer","LOCALS",1200)
+END
+
+IF
+!Global("PGImoTweaksEdwina","LOCALS",3)
+GlobalGT("TalkedDegardan","GLOBAL",3)
+Dead("C6Bodhi")
+InParty(Myself)
+InParty("Edwin")
+!Dead("Edwin")
+Gender("Edwin",MALE)
+Global("PGImoTweaksPostEdwina","LOCALS",1)
+RealGlobalTimerExpired("PGImoTweaksPostEdwinaTimer","LOCALS")
+CombatCounter(0)
+    !See([ENEMY])
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck("Edwin",CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("PGImoTweaksPostEdwina","LOCALS",2)
+Dialogue("Edwin")
+END
+
+
+
+IF
+InParty(Myself)
+InParty("Anomen")
+Global("RomancePartFour","GLOBAL",1)
+G("AnomenRomanceActive",2)
+Global("FWBanterAnoLateRomance","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("FWBanterAnoLateRomance","GLOBAL",1)
+RealSetGlobalTimer("FWBanterImoAnoTweak","LOCALS",500)
+END
+
+IF
+G("AnomenRomanceActive",2)
+InParty(Myself)
+InParty("Anomen")
+See("Anomen")
+!Dead("Anomen")
+G("AnomenIsKnight",1)
+Dead("C6Bodhi")
+Global("FWBanterAnoLateRomance","GLOBAL",1)
+RealGlobalTimerExpired("FWBanterImoAnoTweak","LOCALS")
+CombatCounter(0)
+    !See([ENEMY])
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck("Anomen",CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("FWBanterAnoLateRomance","GLOBAL",2)
+Dialogue("Anomen")
+END
+
+
+IF
+G("AnomenRomanceActive",2)
+InParty(Myself)
+InParty("Anomen")
+See("Anomen")
+!Dead("Anomen")
+G("AnomenIsNotKnight",1)
+!GlobalGT("AnomenKeldornFight","GLOBAL",0)
+!GlobalTimerExpired("AnomenAttacksAerie","GLOBAL")
+Global("FWBanterAnoLateRomance","GLOBAL",1)
+RealGlobalTimerExpired("FWBanterImoAnoTweak","LOCALS")
+CombatCounter(0)
+    !See([ENEMY])
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck("Anomen",CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("FWBanterAnoLateRomance","GLOBAL",3)
+Dialogue("Anomen")
+END
+
+
+IF
+G("AnomenRomanceActive",2)
+InParty(Myself)
+InParty("Anomen")
+See("Anomen")
+!Dead("Anomen")
+G("AnomenIsNotKnight",1)
+OR(2)
+GlobalGT("AnomenKeldornFight","GLOBAL",0)
+GlobalTimerExpired("AnomenAttacksAerie","GLOBAL")
+Global("FWBanterAnoLateRomance","GLOBAL",1)
+RealGlobalTimerExpired("FWBanterImoAnoTweak","LOCALS")
+CombatCounter(0)
+    !See([ENEMY])
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck(Player1,CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("FWBanterAnoLateRomance","GLOBAL",4)
+Dialogue(Player1)
+END
+
+
+
+IF
+InParty(Myself)
+InParty("Jaheira")
+!Dead("Jaheira")
+Global("FWBanterJaheiraLateRomance","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("FWBanterJaheiraLateRomance","GLOBAL",2)
+RealSetGlobalTimer("FWBanterImoenJaheira","LOCALS",1200)
+END
+
+IF
+InParty(Myself)
+InParty("Jaheira")
+See("Jaheira")
+!Dead("Jaheira")
+RealGlobalTimerExpired("FWBanterImoenJaheira","LOCALS")
+Global("FWBanterJaheiraLateRomance","GLOBAL",2)
+CombatCounter(0)
+    !See([ENEMY])
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck("Jaheira",CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("FWBanterJaheiraLateRomance","GLOBAL",3)
+Dialogue("Jaheira")
+END
+
+

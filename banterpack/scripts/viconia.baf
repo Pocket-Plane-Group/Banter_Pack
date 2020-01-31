@@ -1,0 +1,29 @@
+IF
+InParty(Myself)
+InParty("Aerie")
+!Dead("Aerie")
+Global("FWBanterVATimerSet","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("FWBanterVATimerSet","LOCALS",1)
+RealSetGlobalTimer("FWBanterVAReady","LOCALS",5000)
+END
+
+
+IF
+InParty(Myself)
+PartyRested()
+InParty("Aerie")
+!Dead("Aerie")
+See("Aerie")
+Global("FWBanterVASleep","GLOBAL",1)
+CombatCounter(0)
+    !See([ENEMY])
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck("Aerie",CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("FWBanterVASleep","GLOBAL",2)
+Interact("Aerie")
+END
+

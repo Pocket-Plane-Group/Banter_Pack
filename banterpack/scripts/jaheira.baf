@@ -1,0 +1,10 @@
+IF
+GlobalGT("Lovetalk","LOCALS",68)
+!Global("JaheiraRomanceActive","GLOBAL",3)
+!Global("JaheiraRomanceActive","GLOBAL",0)
+Global("FWBanterJaheiraLateRomance","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("FWBanterJaheiraLateRomance","GLOBAL",1)
+END
+

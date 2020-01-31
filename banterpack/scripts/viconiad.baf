@@ -1,0 +1,30 @@
+
+IF
+InParty(Myself)
+InParty("Aerie")
+!Dead("Aerie")
+RealGlobalTimerExpired("FWBanterVAReady","LOCALS")
+Global("FWBanterVASleep","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("FWBanterVASleep","GLOBAL",1)
+RestParty()
+END
+
+IF
+InParty(Myself)
+InParty("Edwin")
+!Dead("Edwin")
+Gender("Edwin",MALE)
+G("FWBanterEdVic",1)
+    CombatCounter(0)
+    !See([ENEMY])
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck("Edwin",CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("FWBanterEdVic","GLOBAL",2)
+Interact("Edwin")
+END
+
+

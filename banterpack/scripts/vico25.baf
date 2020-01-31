@@ -1,0 +1,8 @@
+IF
+GlobalGT("ExpLoveTalk","LOCALS",12)
+Global("FWBanTOBVicoLateRom","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("FWBanTOBVicoLateRom","GLOBAL",1)
+END
+

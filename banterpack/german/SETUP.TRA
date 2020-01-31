@@ -1,0 +1,91 @@
+@1   = ~Pocket Plane Banter Pack für BG2: Schatten von Amn~
+@10  = ~Stiefel der Jansenheit~
+@11  = ~Jan Jansen, bekannter gnomischer Forscher, Wissenschaftler und Gelehrter, wollte eine Fußbekleidung herstellen, die nicht nur stilvoll und bequem sein, sondern dem Träger einen Hauch von Kultiviertheit und Raffinesse verleihen sollte. Für die Inspiration wandte er sich an niemand anderen als sich selbst.
+
+Wenn man sie durch einen Eilmarsch auf der Stelle aktiviert, wird der Träger der Stiefel in ein ziemlich gutes Abbild Jans selbst verwandelt. Ob das dem Träger ermöglicht, Jan besser zu verstehen, muss sich noch zeigen.
+
+Jan schenkte <CHARNAME> diese Stiefel, kurz nachdem er sie hergestellt hatte, was darauf hin deutet, dass sie nie in der Praxis erprobt wurden.
+
+EIGENSCHAFTEN:
+
+Gestaltwandlung
+ Dauer: 10 Runden
+ Der Träger verwandelt sich in einen Jan ähnlichen männlichen Gnom.
+ 
+Gewicht: 4~
+@12  = ~Sehr Große Armbrust der Verdammnis~
+@13  = ~Jan Jansen, gnomischer Tüftler und gelegentlicher Sadist, tat sich mit einem Kollegen zusammen, der nur als "Hermrich" bekannt ist, um diese monströse Schusswaffe herzustellen. Jan gab sie Valygar, nachdem sie über den Verdruss des Waldläufers über in den arkanen Künsten bewanderte Leute diskutiert hatten.
+
+Für Liebhaber von Armbrüsten ist die gute Nachricht, dass sie ausgesprochen einschüchternd wirkt, ziemlich mächtig aussieht, und auf magische Weise ihre eigene Munition herstellt - was auch gut so ist, denn man bräuchte eine Handvoll gewöhnlicher Bolzen, um die Munitionskammer zu füllen. Die schlechte Nachricht ist, dass die magisch verbesserten Bolzen eine solch rasende Geschwindigkeit erreichen, dass man sagen kann, dass sie tatsächlich um die Welt herum fliegen, bevor sie - sehr nahe am Abschussort - ihr Ziel erreichen.
+
+Jan behauptet, Hermrich sei einem "Steckrübengolem" zum Opfer gefallen, bevor er seine Schöpfung ausprobieren konnte, aber manche behaupten, dass die Erfindung ein wenig zu gut arbeitete. Ihr könnt entscheiden.
+
+EIGENSCHAFTEN:
+
+Gewicht: 75
+Initiativefaktor: 9
+Mindeststärke: 17
+Fertigkeit: Armbrust
+Typ: 2-händig
+
+Kann nicht verwendet werden von:
+- Dieben
+- Druiden
+- Hexenmeistern
+- Klerikern
+- Magiern
+- Mönchen~
+@14  = ~Pocket Plane Banter Pack für BG2: Thron des Bhaal~
+@15  = ~Thron des Bhaal ist nicht installiert.~
+@16  = ~Jan Jansens Bemerkenswerte Blitzfreudige Monsterschwärmer~
+@17  = ~Dies ist eine neue Art von Munition für Jans Armbrust. Inspiriert von ranzigen Steckrüben, füllte Jan diese Schädel mit konservierten Insekten. Wenn sie zerbrechen und das Ziel attackieren, verursachen sie genügend Schaden und Ablenkung, um einen Magier von seinem Zauberbuch und alle (einschließlich der Insekten) von Jans Steckrüben fernzuhalten.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer wird das Ziel für 25 Sekunden von Insekten angegriffen (Rettungswurf gg. Odemwaffen).
+
+Schaden: 1W2 +1 (Geschoss)
+ETW0-Bonus: -1
+Gewicht: 1
+Schusswaffe: Armbrust
+
+Kann nicht verwendet werden von:
+- Dieben
+- Druiden
+- Hexenmeistern
+- Klerikern
+- Magiern
+- Mönchen~
+@18  = ~Monsterschwärmer erschaffen~
+@93  = ~Banter-Beschleuniger-Skript für SvA installieren?
+(Verringert den Abstand zwischen Unterhaltungen innerhalb der Gruppe.)~
+@94  = ~Der Banter-Beschleuniger für SvA ist bereits installiert.~
+@95  = ~Banter-Beschleuniger-Skript für TdB installieren?
+(Verringert den Abstand zwischen Unterhaltungen innerhalb der Gruppe.)~
+@96  = ~Der Banter-Beschleuniger für TdB ist bereits installiert.~
+
+@100 = ~Sarevok verschwendete keine Zeit und baute den Kult von Anhängern auf, wie er es dem aufgestiegenen <CHARNAME> versprochen hatte. Unter den kriegsmüden Überlebenden in Amkethran und Saradush fand er Leute, die Willens waren ihr Leben der neu geborenen göttlichen Macht zu verpflichten, und auch einige, die weniger begierig darauf waren, aber die befürchteten alles, was ihnen geblieben war, durch den Zorn Sarevoks und seines Patron zu verlieren. Inmitten der noch schwelenden Ruinen Saradushs befahl Sarevok den ersten Tempel von <CHARNAME> zu errichten und die Stadt wurde zum heiligsten Ort für <PRO_HISHER> Anhänger. 
+Sarevok hisste das Banner von <CHARNAME> und begann einen Kreuzug, der nichts anderes als Bekehrung zum Ziel hatte. Er eroberte Westor und überließ der Kirche die Kontrolle. Sogar Baldurs Tor durchlitt eine harte Belagerung durch Sarevoks Fanatiker. 
+Als höchster Schüler von Bhaals Vermächtnis erwählte Sarevok persönlich die Elite der Bischöfe des neuen Glaubens, bildete sie aus und berief einen Mann namens Glennaro auf den Posten des Hohen Blutpriesters. Als Schmied hatte Glennaro keinerlei religiöse Erfahrung außer dem Brüllen von Flüchen, aber Sarevok bewunderte seine außergewöhnliche Gerissenheit. Er schenkte Sarevok eine Replik seiner persönlichen Rüstung, als er um den Posten ersuchte und gewann damit gegen den Sohn des Eisenthrons. 
+Am zehnten Jahrestag des Aufstiegs von <CHARNAME> rief Sarevok die Gläubigen zu Feierlichkeiten und zum Pilgern auf. Das nach Sarevoks Vorstellungen wiedererichtete Saradush sollte von den Gebeten und Huldigungen an den Helden von Baldurs Tor und Erben von Bhaals Vermächtnis erschüttert werden und in einem gewaltigen Blutopfer an Bhaals Quelle gipfeln. Glennaro hatte die Verbindung, die Sarevoks Führung ihm mit <CHARNAME> eingebracht hatte, ausgenutzt und war stärker geworden als man sich vorstellen kann, aber er gab sich damit nicht zufrieden. Er plante, die Energien der Feierlichkeiten nicht <CHARNAME> zukommen zu lassen, sondern sie für sich selbst zu nutzen und durch die Quelle die Essenz von <CHARNAME> in sich aufzunehmen. Sarevok hatte mit diesem Verrat gerechnet und folterte zwei von Glennaros Männern, um seinen Verdacht zu bestätigen. 
+Die Gelegenheit weckte ein lange unterdrücktes Verlangen in Sarevoks Seele und so sehr der Mann, der er geworden war, sich auch wünscht loyal zu bleiben, so unterlag er ihm doch. Als er Glennaro am Tag des Opfers gegenübertrat, verlangte er an dem Vorhaben beteiligt zu werden. Aber Glennaro hatte die beteiligten Energien unterschätzt und als das Blut der Ungläubigen sich in die Quelle ergoss und er die verhängnisvollen Worte sprach, waren die entfesselten Kräfte viel zu stark für das verräterische Duo. Die ungezähmte Energie von <CHARNAME> strömte weiter und die Leute in Saradush wurden dort wo sie standen eingeäschert, die Gebäude zerfielen zu Staub - es war ein schrecklicher Anblick. Zum zweiten Mal in einem Jahrzehnt lag Saradush in Trümmern und die Flüsse wurden zu einer Brühe aus Asche und Blut. 
+Am Ende blieb Sarevok ein Sklave seiner Ambitionen. Wie schon einmal zuvor hatten ihn diese Ambitionen zerstört - und mit ihm unzählige andere. Zu Beurteilen, wie sehr dieser Betrug den aufgestiegenen <CHARNAME> berührte, übertrifft die Möglichkeiten eines sterblichen Erzählers. Aber diejenigen, die <PRO_HIMHER> kennen, sagen, dass <PRO_HESHE> in der Vergangenheit schon viele Widrigkeiten und gebrochene Herzen überstanden hat, und dass <PRO_HESHE> um jeden Preis weitermachen wird.~
+
+@101 = ~Sarevok verschwendete keine Zeit und baute den Kult von Anhängern auf, wie er es dem aufgestiegenen <CHARNAME> versprochen hatte. Unter den kriegsmüden Überlebenden in Amkethran und Saradush fand er Leute, die Willens waren ihr Leben der neu geborenen göttlichen Macht zu verpflichten, und auch einige, die weniger begierig darauf waren, aber die befürchteten alles, was ihnen geblieben war, durch den Zorn Sarevoks und seines Patron zu verlieren. Inmitten der noch schwelenden Ruinen Saradushs befahl Sarevok den ersten Tempel von <CHARNAME> zu errichten und die Stadt wurde zum heiligsten Ort für <PRO_HISHER> Anhänger. 
+Sarevok hisste das Banner von <CHARNAME> und begann einen Kreuzug, der nichts anderes als Bekehrung zum Ziel hatte. Er eroberte Westor und überließ der Kirche die Kontrolle. Sogar Baldurs Tor durchlitt eine harte Belagerung durch Sarevoks Fanatiker. 
+Als höchster Schüler von Bhaals Vermächtnis erwählte Sarevok persönlich die Elite der Bischöfe des neuen Glaubens, bildete sie aus und berief einen Mann namens Glennaro auf den Posten des Hohen Blutpriesters. Als Schmied hatte Glennaro keinerlei religiöse Erfahrung außer dem Brüllen von Flüchen, aber Sarevok bewunderte seine außergewöhnliche Gerissenheit. Er schenkte Sarevok eine Replik seiner persönlichen Rüstung, als er um den Posten ersuchte und gewann damit gegen den Sohn des Eisenthrons. 
+Am zehnten Jahrestag des Aufstiegs von <CHARNAME> rief Sarevok die Gläubigen zu Feierlichkeiten und zum Pilgern auf. Das nach Sarevoks Vorstellungen wiedererichtete Saradush sollte von den Gebeten und Huldigungen an den Helden von Baldurs Tor und Erben von Bhaals Vermächtnis erschüttert werden und in einem gewaltigen Blutopfer an Bhaals Quelle gipfeln. Glennaro hatte die Verbindung, die Sarevoks Führung ihm mit <CHARNAME> eingebracht hatte, ausgenutzt und war stärker geworden als man sich vorstellen kann, aber er gab sich damit nicht zufrieden. Er plante, die Energien der Feierlichkeiten nicht <CHARNAME> zukommen zu lassen, sondern sie für sich selbst zu nutzen und durch die Quelle die Essenz von <CHARNAME> in sich aufzunehmen. Sarevok hatte mit diesem Verrat gerechnet und folterte zwei von Glennaros Männern, um seinen Verdachz zu bestätigen. 
+Die Gelegenheit weckte ein lange unterdrücktes Verlangen in Sarevoks Seele, aber so sehr es den Mann, der er einst war, danach dürstete sich zu befreien, so erdachte Sarevok doch einen besserern Plan. Er trat Glennaro gegenüber und ließ den Priester in dem Glauben, er wolle die Macht mit ihm teilen - ein Zugeständnis, das er nur ungern machte. Als es an der Zeit war die verhängnisvollen Worte zu sprechen, durchbohrte Sarevok Glennaro, um das Vollendung des Spruches zu verhinden. Die gläubigen Zuschauer sahen mit gebanntem Staunen, wie das Blut des Priesters sich in die Quelle ergoss. Das Blut, verdorben durch die Gier und die Entschlossenheit, die Glennaros Wesen ausmachten, brachten die Macht, die er suchte, hervor. Die Luft war wie aufgeladen, als die Kraft von <CHARNAME> in die Materielle Ebene gerissen wurde. Die Quelle strömte ob der göttlicher Kraft über und explodierte. Als Folge starben etliche der Anhänger oder wurden verletzt und hinterließen eine entsetzte Menge, die sich unsicher war, was der Wille ihres Gottes war. Es konnten keine Überreste von Sarevok gefunden werden. Einige sagen, er wurde von seinem <PRO_BROTHERSISTER> in dessen Sphären aufgenommen, während andere meinen er sei schlichtweg in der Explosion ums Leben gekommen, als er den Schwur, den er geleistet hatte, erfüllte. Was genau aus ihm wurde und ob er aus Loyalität handelte oder, weil er durch den Schwur dazu gezwungen war, vermag kein Sterblicher zu sagen.~
+
+@102 = ~Sarevok verschwendete keine Zeit und baute den Kult von Anhängern auf, wie er es dem aufgestiegenen <CHARNAME> versprochen hatte. Unter den kriegsmüden Überlebenden in Amkethran und Saradush fand er Leute, die Willens waren ihr Leben der neu geborenen göttlichen Macht zu verpflichten, und auch einige, die weniger begierig darauf waren, aber die befürchteten alles, was ihnen geblieben war, durch den Zorn Sarevoks und seines Patron zu verlieren. durch den Zorn Sarevoks und seines Patronden ersten Tempel von <CHARNAME> zu errichten und die Stadt wurde zum heiligsten Ort für <PRO_HISHER> Anhänger. 
+Als höchster Schüler von Bhaals Vermächtnis erwählte Sarevok persönlich die Elite der Bischöfe des neuen Glaubens, bildete sie aus und berief einen Mann namens Glennaro auf den Posten des Hohen Blutpriesters. Als Schmied hatte Glennaro keinerlei religiöse Erfahrung außer dem Brüllen von Flüchen, aber Sarevok bewunderte seine ausgesprochene Gerissenheit. Er schenkte Sarevok eine Replik seiner persönlichen Rüstung, als er um den Posten ersuchte und gewann damit gegen den Sohn des Eisenthrons. 
+Aber die Dienstzeit des Priesters unter <CHARNAME> war kurz. Bald wurde klar, dass er nur mit einen Bruchteil der Macht umgehen konnte, die einige der niederen Adepten hatten, und schlich in einer Nacht davon, um einer öffentlichen Amtsenthebung zu entgehen. Sarevok verlor etwas Einfluss unter der wachsenden Gemeinde der Gläubigen, aber er tat sein Bestes und machte eine Zeit lang unermüdlich weiter. 
+Am zehnten Jahrestag des Aufstiegs von <CHARNAME> rief Sarevok die Gläubigen zu Feierlichkeiten und zum Pilgern auf. Das nach Sarevoks Vorstellungen wiedererichtete Saradush sollte von den Gebeten und Huldigungen an den Helden von Baldurs Tor und Erben von Bhaals Vermächtnis erschüttert werden. Aber die Kirche lehnte Sarevoks Aufruf dazu, die Zeremonie in ein gewaltiges Blutopfer in Gorions Quelle gipfeln zu lassen, ab. Die Priester sagten, dass dies nicht dem Gedanken der Barmherzigkeit entspreche, von dem sie meinten, dass ihr Patron ihn fördern wolle. Sarevok stürzte sich vor Wut über die Ablehnung seiner Autorität auf die Priester und begann diese abzuschlachten und ihre Leiber in die Quelle zu werfen. Auf Kosten von Dutzender von Leben konnte die Menge den mächtigen Todesbringer schließlich entwaffnen und überwältigen. Er wurd aus der Stadt, die er selbst wiedererbaut hatte, verbannt. Ab diesem Punkt werden die Berichte über seinen Aufenthaltsort löchrig und widersprüchlich: Er wurde angeblich an allen möglichen Orten von Westtor bis Matzica gesehen. 
+Jahre später fand ein Akolyth, der zur Morgenandacht zu einem kleinen Tempel von <CHARNAME> ging, vor dem Altar kniend eine feuergeschwärzte Gestalt, die Sarevoks Erscheinung hatte. Der verkohlte Mann hielt noch immer mit festem Griff eine mächtige Klinge, die später als das Schwert des Chaos identifiziert wurde. Offensichtlich hatte er diese geradewegs durch den Sockel des Altars hindurch getrieben.~
+
+@103 = ~Sarevok verschwendete keine Zeit und baute den Kult von Anhängern auf, wie er es dem aufgestiegenen <CHARNAME> versprochen hatte. Unter den kriegsmüden Überlebenden in Amkethran und Saradush fand er Leute, die Willens waren ihr Leben der neu geborenen göttlichen Macht zu verpflichten, und auch einige, die weniger begierig darauf waren, aber die befürchteten alles, was ihnen geblieben war, durch den Zorn Sarevoks und seines Patron zu verlieren. Inmitten der noch schwelenden Ruinen Saradushs befahl Sarevok den ersten Tempel von <CHARNAME> zu errichten und die Stadt wurde zum heiligsten Ort für <PRO_HISHER> Anhänger. 
+Als höchster Schüler von Bhaals Vermächtnis erwählte Sarevok persönlich die Elite der Bischöfe des neuen Glaubens, bildete sie aus und berief einen Mann namens Glennaro auf den Posten des Hohen Blutpriesters. Als Schmied hatte Glennaro keinerlei religiöse Erfahrung außer dem Brüllen von Flüchen, aber Sarevok bewunderte seine ausgesprochene Gerissenheit. Er schenkte Sarevok eine Replik seiner persönlichen Rüstung, als er um den Posten ersuchte und gewann damit gegen den Sohn des Eisenthrons.
+Aber die Dienstzeit des Priesters unter <CHARNAME> war kurz. Bald wurde klar, dass er nur mit einen Bruchteil der Macht umgehen konnte, die einige der niederen Adepten hatten, und schlich in einer Nacht davon, um einer öffentlichen Amtsenthebung zu entgehen. Sarevok verlor etwas Einfluss unter der wachsenden Gemeinde der Gläubigen, aber er tat sein Bestes und machte eine Zeit lang unermüdlich weiter. 
+Am zehnten Jahrestag des Aufstiegs von <CHARNAME> rief Sarevok die Gläubigen zu Feierlichkeiten und zum Pilgern auf. Das nach Sarevoks Vorstellungen wiedererichtete Saradush sollte von den Gebeten und Huldigungen an den Helden von Baldurs Tor und Erben von Bhaals Vermächtnis erschüttert werden. Aber die Kirche lehnte Sarevoks Aufruf dazu, die Zeremonie in ein gewaltiges Blutopfer in Gorions Quelle gipfeln zu lassen, ab. Die Priester sagten, dass dies nicht dem Gedanken der Barmherzigkeit entspreche, von dem sie meinten, dass ihr Patron ihn fördern wolle. In seiner Fantasie konnte Sarevok sehen, wie er die anmaßenden Priester auf der Stelle ausweiden und ihre Leiber in die Quelle werfen würde, um sein Verlangen zu befriedigen, aber er blieb ruhig und räumte widerwillig ein, dass <CHARNAME> Bhaals Wesenszüge nicht so sehr geerbt hatte wie er es gehofft hatte. 
+Zum ersten Mal in diesem Jahrzehnt hörte Sarevok auf zu predigen, begann zuzuhören und wurde von dem, was er hörte, sehr beunruhigt. Er begann an alles, was er im Namen von <CHARNAME> getan hatte, in Frage zu stellen und bemühte sich seine Rolle in dieser, wie ihm die Priester erklärten, Doktrin ohne Hinterhältigkeit und Betrug zu erkennen, die statt dessen eine des natürlichen Abschlusses war. 
+Schließlich lies er Saradush und seine Bewegung, die er nicht mehr verstand, hinter sich. Die meisten Historiker verloren an hierbei seine Spur. Wo auch immer einer unheimliche Gestalt auftauchte oder des Nächtens Seltsames geschah, wurde gesagt, dass der zornerfüllte Sarevok nicht fern sein könne. In Wahrheit reiste er nach Kara-Tur, um mit dem Tod seiner einen wahren Liebe, der Kriegerin Tamoko, abzuschließen. Er kam niemals zurück, aber die Gerüchte halten an.~

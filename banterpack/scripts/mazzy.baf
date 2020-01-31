@@ -1,0 +1,8 @@
+IF
+GlobalGT("BMazzy9","LOCALS",0)
+G("FWBanterMazzyViconia",0)
+THEN
+RESPONSE #100
+SG("FWBanterMazzyViconia",1)
+END
+

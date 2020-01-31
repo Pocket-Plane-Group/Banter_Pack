@@ -1,0 +1,20 @@
+IF
+GlobalGT("Edwin14","LOCALS",0)
+Global("FWBanterEdVic","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("FWBanterEdVic","GLOBAL",1)
+END
+
+IF
+PartyRested()
+CombatCounter(0)
+Global("FWBanterEHSleep","GLOBAL",1)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck("HaerDalis",CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("FWBanterEHSleep","GLOBAL",2)
+Interact("HaerDalis")
+END
+

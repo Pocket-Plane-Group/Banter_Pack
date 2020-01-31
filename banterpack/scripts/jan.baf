@@ -1,0 +1,43 @@
+IF
+InParty(Myself)
+XPGT(Myself,500000)
+Global("FWBanterJanBootGift","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("FWBanterJanBootGift","LOCALS",1)
+RealSetGlobalTimer("FWBanterJanBootTimer","LOCALS",750)
+END
+
+IF
+InParty(Myself)
+RealGlobalTimerExpired("FWBanterJanBootTimer","LOCALS")
+Global("FWBanterJanBootGift","LOCALS",1)
+CombatCounter(0)
+    !See([ENEMY])
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck(Player1,CD_STATE_NOTVALID)
+See(Player1)
+THEN
+RESPONSE #100
+SetGlobal("FWBanterJanBootGift","LOCALS",2)
+Dialogue(Player1)
+END
+
+IF
+InParty(Myself)
+Range(Player1,25)
+XPGT(Myself,750000)
+CombatCounter(0)
+    !See([ENEMY])
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck(Player1,CD_STATE_NOTVALID)
+HPGT(Player1,3)
+Global("FWBanterJanBoltGift","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("FWBanterJanBoltGift","LOCALS",1)
+Dialogue(Player1)
+END
+
+
+

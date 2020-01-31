@@ -1,0 +1,12 @@
+IF
+InParty(Myself)
+InParty("HaerDalis")
+!Dead("HaerDalis")
+Gender(Myself,MALE)
+Global("FWBanterEHSleep","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("FWBanterEHSleep","GLOBAL",1)
+RestParty()
+END
+

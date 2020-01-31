@@ -1,0 +1,50 @@
+@1=~Dodatkowe Interakcje dla BG2: Cienie Amn~
+@10=~Buty Jansena~
+@11=~Jan Jansen, s³ynny gnomi badacz i wynalazca, chcia³ stworzyæ buty, które by³y by nie tylko wygodne, ale tak¿e zapewnia³yby wspania³y wygl¹d. Jego inspiracj¹ by³ on sam. Umo¿liwiaj¹ one osobie, która je nosi zmianê w gnoma, który bardzo przypomina ich twórcê. W jaki sposób mo¿e to wspomóc nosz¹c¹ je osobê pozostaje zagadk¹.
+
+<CHARNAME> otrzyma³<PRO_HESHE> te buty w prezencie od Jana, krótko po ich stworzeniu, co wskazuje na to, ¿e nigdy nie by³y testowane.
+
+PARAMETRY:
+
+Specjalne:
+  Przemiana w Janseno-podobnego gnoma na dziesiêæ rund.~
+
+@12=~Bardzo Du¿a Kusza Zag³ady~
+@13=~Jan Jansen, gnomi wynalazca i badacz, po³¹czy³ swe si³y z koleg¹ znanym jako "Hermrich" w celu skonstruowania olbrzymiej kuszy. Jan podarowa³ j¹ Valygarowi po ich rozmowie na temat magów. Dobr¹ wiadomoœci¹ dla entuzjastów kusz jest fakt, ¿e kusza sprawia wra¿enie bardzo mocnej i magicznie tworzy w³asne potê¿ne pociski. Z³a wiadomoœæ jest taka, ¿e magicznie tworzone be³ty dos³ownie okr¹¿aj¹ za³y œwiat zanim trafi¹ w pobli¿u miejsca, z którego zosta³y wystrzelone. Jan twierdzi, ¿e Hermrich pad³ ofiar¹ "rzepowego golema" zanim sprawdzi³ ten wynalazek, ale niektórzy uwa¿aj¹, ¿e mog³a byæ to sprawka tego wynalazku.
+
+PARAMETRY:
+
+Waga: 75
+OpóŸnienie: 9
+Rodzaj bieg³oœci: Kusza
+Typ broni:  2-rêczna
+Wymagana si³a: 17
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej
+ Mnich~
+
+
+@14=~Dodatkowe Interakcje dla BG2: Tron Bhaala~
+@15=~Nie masz zainstalowanego ToB.~
+
+@16=~B³yskawiczny W³adca Zadrapañ~
+@17=~To nowy typ amunicji dla kuszy Jana. Zainspirowany przez zje³cza³e rzepy, natchniêty Jan po³¹czy³ be³ty z nieznoœnymi owadami, które atakuj¹ przeciwnika, zadaj¹c mu spore obra¿enia i nie pozwalaj¹c mu siê skupiæ.
+
+PARAMETRY:
+
+Obra¿enia: 1K2 +1
+TraK0: +1
+Specjalne: Przyzywa insekty, które atakuj¹ przeciwnikat (rzut obronny przeciw zioniêciom z modyfikatorem -4 neguje efekt) na 25 sekund~
+@18=~Rój owadów~
+
+
+@93=~Zainstalowac skrypt przyspieszajacy bantery w SOA?
+(zwieksza czestosc interakcji miedzy postaciami)~
+@94=~Juz zainstalowales SOA Banter Akcelerator.~
+
+@95=~Zainstalowac skrypt przyspieszajacy bantery w TOB?
+(zwieksza czestosc interakcji miedzy postaciami)~
+@96=~Juz zainstalowales TOB Banter Akcelerator.~

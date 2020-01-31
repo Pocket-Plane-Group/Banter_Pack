@@ -1,0 +1,9 @@
+IF
+GlobalGT("BHaerDalis1","LOCALS",0)
+G("FWBanterAnoHD",0)
+THEN
+RESPONSE #100
+SG("FWBanterAnoHD",1)
+END
+
+

@@ -1,0 +1,24 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("Jan")
+		AddSpecialAbility("J#JanBol") // Flasher Master Bruiser Mate
+		Wait(1)
+		EquipRanged()
+		FaceObject(Player1)
+		SwingOnce()
+		PlaySound("SWI_03")
+		SmallWait(3)
+		CreateVisualEffectObject("SPIPLARI",Player1)
+		ApplyDamage(Player1,1,PIERCING)
+		Wait(1)
+		CreateVisualEffectObject("SPIPLARI",Player1)
+		ApplyDamage(Player1,1,PIERCING)
+		Wait(1)
+		CreateVisualEffectObject("SPIPLARI",Player1)
+		ApplyDamage(Player1,1,PIERCING)
+		Wait(1)
+		StartDialogueNoSet(Player1)
+		EndCutSceneMode()
+END

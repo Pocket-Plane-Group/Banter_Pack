@@ -1,0 +1,99 @@
+IF
+InParty("Nalia")
+!Dead("Nalia")
+InParty(Myself)
+HasItemEquiped("SW2H14",Myself)
+Global("FWMinscLarry","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("FWMinscLarry","LOCALS",1)
+RealSetGlobalTimer("FWMinscLarryTimer","LOCALS",1200)
+END
+
+IF
+RealGlobalTimerExpired("FWMinscLarryTimer","LOCALS")
+Global("FWMinscLarry","LOCALS",1)
+InParty("Nalia")
+!Dead("Nalia")
+See("Nalia")
+InParty(Myself)
+CombatCounter(0)
+    !See([ENEMY])
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck("Nalia",CD_STATE_NOTVALID)
+HasItemEquiped("SW2H14",Myself)
+THEN
+RESPONSE #100
+SetGlobal("FWMinscLarry","LOCALS",2)
+CreateCreatureObject("FWLILCOR","Minsc",0,0,0)
+Wait(1)
+Interact("Nalia")
+END
+
+
+
+IF
+InParty("Jaheira")
+!Dead("Jaheira")
+InParty(Myself)
+HasItemEquiped("SW2H14",Myself)
+Global("FWMinscLarryJaheira","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("FWMinscLarryJaheira","LOCALS",1)
+RealSetGlobalTimer("FWMinscLarryJaheiraTimer","LOCALS",3000)
+END
+
+IF
+RealGlobalTimerExpired("FWMinscLarryJaheiraTimer","LOCALS")
+Global("FWMinscLarryJaheira","LOCALS",1)
+InParty("Jaheira")
+!Dead("Jaheira")
+See("Jaheira")
+InParty(Myself)
+CombatCounter(0)
+    !See([ENEMY])
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck("Jaheira",CD_STATE_NOTVALID)
+HasItemEquiped("SW2H14",Myself)
+THEN
+RESPONSE #100
+SetGlobal("FWMinscLarryJaheira","LOCALS",2)
+CreateCreatureObject("FWLILCOR","Minsc",0,0,0)
+Wait(1)
+Interact("Jaheira")
+END
+
+IF
+InParty("Keldorn")
+!Dead("Keldorn")
+InParty(Myself)
+HasItemEquiped("SW2H14",Myself)
+Global("PGMinscLarryKeldorn","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("PGMinscLarryKeldorn","LOCALS",1)
+RealSetGlobalTimer("PGMinscLarryKeldornTimer","LOCALS",6000)
+END
+
+IF
+RealGlobalTimerExpired("PGMinscLarryKeldornTimer","LOCALS")
+Global("PGMinscLarryKeldorn","LOCALS",1)
+InParty("Keldorn")
+!Dead("Keldorn")
+See("Keldorn")
+InParty(Myself)
+CombatCounter(0)
+    !See([ENEMY])
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck("Keldorn",CD_STATE_NOTVALID)
+HasItemEquiped("SW2H14",Myself)
+THEN
+RESPONSE #100
+SetGlobal("PGMinscLarryKeldorn","LOCALS",2)
+CreateCreatureObject("FWLILCOR","Minsc",0,0,0)
+Wait(1)
+Interact("Keldorn")
+END
+
+

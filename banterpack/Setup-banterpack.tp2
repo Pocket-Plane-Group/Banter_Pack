@@ -1,0 +1,204 @@
+BACKUP ~banterpack\Backup~
+//AUTHOR ~PocketPlaneGroup~ //jcompton@forgottenwars.net
+SUPPORT ~http://forums.pocketplane.net/index.php/board,6.0.html~
+VERSION ~v17~ 
+README ~banterpack\banter-readme.txt~
+
+ALWAYS  
+
+  ACTION_IF GAME_IS ~eet~ BEGIN
+    OUTER_SET bg2_chapter = 12
+  END ELSE BEGIN
+    OUTER_SET bg2_chapter = 0
+  END
+  OUTER_FOR (i=1; i<=10; i=i+1) BEGIN
+    OUTER_SET bg2_chapter = bg2_chapter + 1
+    OUTER_SPRINT name_source ~bg2_chapter_%i%~
+    OUTER_SET EVAL ~%name_source%~ = bg2_chapter
+  END
+
+ACTION_IF !FILE_EXISTS ~banterpack/backup/banterpackreinstall.mrk~ BEGIN
+
+  /* STATE.IDS patching to ToB - thanks, Cam, if you read it */
+  /* adds custom IsValidForPartyDialogue state */
+  APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~ UNLESS ~CD_STATE_NOTVALID~
+
+
+  ACTION_DEFINE_ARRAY fl#reload BEGIN setup END
+
+   LAF HANDLE_CHARSETS
+    INT_VAR
+      infer_charset = 1
+    STR_VAR
+      default_language = ~english~
+      tra_path = EVAL ~%MOD_FOLDER%~
+      reload_array = fl#reload
+  END
+  COPY ~banterpack/component.xx~ ~banterpack/backup/banterpackreinstall.mrk~
+END //banterpackreinstall.mrk
+
+LOAD_TRA ~banterpack/english/setup.tra~
+LOAD_TRA ~banterpack/%LANGUAGE%/setup.tra~
+
+
+ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
+  LOAD_TRA ~banterpack/english/setup-ee.tra~
+  LOAD_TRA ~banterpack/%LANGUAGE%/setup-ee.tra~
+END
+
+
+END
+
+LANGUAGE ~English~
+         ~english~
+         ~banterpack/english/setup.tra~
+
+LANGUAGE ~Espanol (Traducido por Clan DLAN)~
+         ~spanish~
+         ~banterpack/english/setup.tra~
+         ~banterpack/spanish/setup.tra~
+
+LANGUAGE ~Deutsch (Uebersetzung durch rosenranken.de)~
+         ~german~
+         ~banterpack/english/setup.tra~
+         ~banterpack/german/setup.tra~
+
+LANGUAGE ~Francais (Translated by Mathrim Cauthon)~
+         ~french~
+         ~banterpack/english/setup.tra~
+         ~banterpack/french/setup.tra~
+
+LANGUAGE ~Polski (Translated by Damian Staniszewski)~
+         ~polski~
+         ~banterpack/english/setup.tra~
+         ~banterpack/polski/setup.tra~
+
+LANGUAGE ~Italian (Translated by Xeno.Team and others, updated by Ilot)~
+         ~italian~
+         ~banterpack/english/setup.tra~
+         ~banterpack/italian/setup.tra~
+
+LANGUAGE ~Russian (Translated by Prowler)~
+         ~russian~
+         ~banterpack/english/setup.tra~
+         ~banterpack/russian/setup.tra~
+
+LANGUAGE ~Korean (Translated by Tannedbear)~
+         ~korean~
+         ~banterpack/english/setup.tra~
+         ~banterpack/korean/setup.tra~
+
+LANGUAGE ~Chinese (Translated by Merzbau)~
+         ~schinese~
+         ~banterpack/english/setup.tra~
+         ~banterpack/schinese/setup.tra~
+
+BEGIN @1
+
+// Ensures banters won't run in BG1 section in Baldur's Gate Trilogy, thanks K'aeloree
+ACTION_IF GAME_IS ~BGT eet~ THEN BEGIN
+//    OUTER_SPRINT "percentage_sign" "%"
+    OUTER_SPRINT ~CLEVER_EDITORIAL_COMMENT~ ~Global("ENDOFBG1","GLOBAL",2)~
+END ELSE BEGIN
+//    OUTER_SPRINT "percentage_sign" "%"
+    OUTER_SPRINT ~CLEVER_EDITORIAL_COMMENT~ ~~
+END
+
+
+COMPILE EVALUATE_BUFFER ~banterpack/dialogue/banter-soa.d~
+USING ~banterpack\english\banter-soa.tra~
+        ~banterpack\%s\banter-soa.tra~
+
+/* soa fixes: only apply if necessary, i.e. if Fixpack isn't installed and it's not BGII:EE/EET */
+
+ACTION_IF NOT ((MOD_IS_INSTALLED ~setup-bg2fixpack.tp2~ ~0~) OR
+                   (GAME_IS ~bg2ee eet~)) THEN BEGIN 
+  COMPILE EVALUATE_BUFFER ~banterpack/dialogue/soa-dlg_fixes.d~
+
+END
+
+ACTION_IF
+  FILE_EXISTS_IN_GAME ~edwind.bcs~
+  THEN BEGIN
+EXTEND_BOTTOM ~edwind.bcs~ ~banterpack/scripts/edwind.baf~
+END
+  ELSE BEGIN
+COMPILE ~banterpack/scripts/edwind.baf~
+END
+
+COPY ~banterpack/bcs/j#janbol.bcs~ ~override/j#janbol.bcs~
+
+EXTEND_BOTTOM ~imoen2.bcs~ ~banterpack/scripts/imoen2.baf~
+EXTEND_TOP ~aerie.bcs~ ~banterpack/scripts/aerie.baf~  EVALUATE_BUFFER
+EXTEND_TOP ~jaheira.bcs~ ~banterpack/scripts/jaheira.baf~
+EXTEND_TOP ~minsc.bcs~ ~banterpack/scripts/minsc.baf~
+EXTEND_TOP ~edwin.bcs~ ~banterpack/scripts/edwin.baf~
+EXTEND_TOP ~haerdali.bcs~ ~banterpack/scripts/haerdali.baf~
+EXTEND_TOP ~mazzy.bcs~ ~banterpack/scripts/mazzy.baf~
+EXTEND_TOP ~jan.bcs~ ~banterpack/scripts/jan.baf~
+EXTEND_TOP ~keldorn.bcs~ ~banterpack/scripts/keldorn.baf~  EVALUATE_BUFFER
+EXTEND_BOTTOM ~vicond.bcs~ ~banterpack/scripts/viconiad.baf~
+EXTEND_TOP ~viconia.bcs~ ~banterpack/scripts/viconia.baf~
+
+COPY ~banterpack/copy~ ~override~
+
+COPY ~banterpack/itm/j#janshu.itm~ ~override/j#janshu.itm~
+  SAY NAME2 @10
+  SAY DESC @11
+
+COPY ~banterpack/itm/j#janxbo.itm~ ~override/j#janxbo.itm~
+  SAY NAME2 @12
+  SAY DESC @13
+
+COPY ~banterpack/itm/j#janbol.itm~ ~override/j#janbol.itm~
+  SAY NAME2 @16
+  SAY DESC @17
+
+COPY ~banterpack/spl/j#janbol.spl~ ~override/j#janbol.spl~
+  SAY NAME1 @18
+  SAY NAME2 @18
+
+COPY ~banterpack/cre/fwlilcor.cre~ ~override/fwlilcor.cre~
+  SAY NAME1 #34070 
+  SAY NAME2 #34070
+
+
+
+
+BEGIN @93
+FORBID_FILE ~override\bantergoose.xxx~ @94
+
+COPY ~banterpack\bantergoose\bantergoose.xxx~ ~override\bantergoose.xxx~
+EXTEND_TOP ~baldur.bcs~ ~banterpack\bantergoose\bantergoose.baf~  EVALUATE_BUFFER
+
+
+BEGIN @14
+REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @15
+
+EXTEND_TOP ~vico25.bcs~ ~banterpack/scripts/vico25.baf~
+
+
+COMPILE ~banterpack/dialogue/banter-tob.d~
+USING ~banterpack\english\banter-tob.tra~
+        ~banterpack\%s\banter-tob.tra~
+
+EXTEND_TOP ~ar6200.bcs~ ~banterpack/scripts/AR6200.baf~
+
+COPY_EXISTING ~SAREVND.2DA~ ~override\PGSAREV1.2DA~
+  REPLACE ~73926~ @100
+
+COPY_EXISTING ~SAREVND.2DA~ ~override\PGSAREV2.2DA~
+  REPLACE ~73926~ @101
+
+COPY_EXISTING ~SAREVND.2DA~ ~override\PGSAREV3.2DA~
+  REPLACE ~73926~ @102
+
+COPY_EXISTING ~SAREVND.2DA~ ~override\PGSAREV4.2DA~
+  REPLACE ~73926~ @103
+
+
+BEGIN @95
+FORBID_FILE ~override\bantergoosetob.xxx~ @96
+
+COPY ~banterpack\bantergoose\bantergoose.xxx~ ~override\bantergoosetob.xxx~
+EXTEND_TOP ~baldur25.bcs~ ~banterpack\bantergoose\bantergoosetob.baf~

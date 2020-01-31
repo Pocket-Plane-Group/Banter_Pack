@@ -1,0 +1,71 @@
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("Sarevok")
+        G("PGSarevokDisciple",2)
+        Global("PlayerChoseEssence","GLOBAL",1)
+        GlobalGT("PPEvilChoices","GLOBAL",2)
+        !Global("SarevokOath","GLOBAL",1)
+	Global("SarevokBio","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("SarevokBio","GLOBAL",1)
+		TextScreen("PGSAREV1")
+		SetGlobal("SarevokBio","GLOBAL",1)
+		SmallWait(1)
+		SetGlobal("SarevokBio","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("Sarevok")
+        G("PGSarevokDisciple",2)
+        Global("PlayerChoseEssence","GLOBAL",1)
+        GlobalGT("PPEvilChoices","GLOBAL",2)
+        Global("SarevokOath","GLOBAL",1)
+	Global("SarevokBio","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("SarevokBio","GLOBAL",1)
+		TextScreen("PGSAREV2")
+		SetGlobal("SarevokBio","GLOBAL",1)
+		SmallWait(1)
+		SetGlobal("SarevokBio","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("Sarevok")
+        G("PGSarevokDisciple",2)
+        Global("PlayerChoseEssence","GLOBAL",1)
+        !GlobalGT("PPEvilChoices","GLOBAL",2)
+        !Global("SarevokOath","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("SarevokBio","GLOBAL",1)
+		TextScreen("PGSAREV3")
+		SetGlobal("SarevokBio","GLOBAL",1)
+		SmallWait(1)
+		SetGlobal("SarevokBio","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("StartEndBios","AR6200",1)
+	InParty("Sarevok")
+        G("PGSarevokDisciple",2)
+        Global("PlayerChoseEssence","GLOBAL",1)
+        !GlobalGT("PPEvilChoices","GLOBAL",2)
+        Global("SarevokOath","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("SarevokBio","GLOBAL",1)
+		TextScreen("PGSAREV4")
+		SetGlobal("SarevokBio","GLOBAL",1)
+		SmallWait(1)
+		SetGlobal("SarevokBio","GLOBAL",1)
+		Continue()
+END
+
+

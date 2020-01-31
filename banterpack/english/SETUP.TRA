@@ -1,0 +1,80 @@
+@1=~Pocket Plane Banter Pack for BG2: Shadows of Amn~
+@10=~Boots of Jansenkind~
+@11=~Jan Jansen, noted gnomish researcher, scientist, and scholar, wanted to create footwear that would be not only stylish and comfortable, but provide an air of sophistication and refinement to the wearer. He looked no further than his own reflection for inspiration.
+When activated by a double-time march in place, the wearer of these boots is transformed into a very good likeness of Jan himself. Whether this will help the wearer understand Jan any better remains to be seen.
+Jan presented these boots as a gift to <CHARNAME> shortly after he finished their construction, which may indicate that they have never been field-tested.
+
+STATISTICS
+
+Use Abilities :
+Polymorph: These boots can transform the wearer into a Jansen-esque male gnome for ten turns.~
+
+@12=~Very Big Crossbow of Doominating~
+@13=~Jan Jansen, gnomish tinkerer and occasional sadist, teamed with a colleague known only as "Hermrich" on this monstrosity of a missile launcher. Jan gave it to Valygar after they discussed the ranger's displeasure with practitioners of the arcane arts.
+The good news for crossbow enthusiasts is that it is extremely intimidating, looks quite powerful, and magically creates its own ammunition--which is just as well because it would take a fistful of conventional bolts to fit in the chamber's diameter.
+The bad news is that the magically infused bolts achieve such tremendous velocity that it can be said that they literally fly around the world before striking home, very near where they started.
+Jan claims that Hermrich fell victim to a "turnip golem" before he saw his creation field-tested, but some say that the invention worked a little too well. You be the judge.
+
+
+Weight: 75
+Speed Factor: 9
+Proficiency Type: Crossbow
+Type:  2-handed
+Requires: 17 Strength
+
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief
+ Monk~
+
+
+@14=~Pocket Plane Banter Pack for BG2: Throne of Bhaal~
+@15=~You do not appear to have TOB installed.~
+
+@16=~Flasher Master Swarmer Mate~
+@17=~This is a new type of ammunition for Jan's crossbow (the Flasher Master Bruiser). Inspired by rancid turnips, Jan infused these skull projectiles with preserved insects, ready to burst and attack the target, causing damage and distraction enough to keep a mage away from his spellbooks, and everyone, including the insects, away from Jan's turnips.
+
+STATISTICS
+
+Special Ability: Summon Insects on target (save -4 vs. breath to negate) per third level druid spell for 25 seconds
+THAC0: +1 bonus
+Damage: 1d2 + 1~
+@18=~Create Swarmer Mates~
+
+
+@93=~Install SOA Banter Accelerator script?
+(Increases the frequency of interparty banter)~
+@94=~You already have the SOA Banter Accelerator installed.~
+
+@95=~Install TOB Banter Accelerator script?
+(Increases the frequency of interparty banter)~
+@96=~You already have the TOB Banter Accelerator installed.~
+
+@100=~Sarevok wasted little time building the cult of allegiance he promised his departed sibling. Among the war-weary survivors of Amkethran and Saradush, he found those willing to swear their lives to the newborn celestial power, and those less eager but fearful of losing what little they had left to the wrath of Sarevok and his patron. It was amidst the still-choking rubble of Saradush that Sarevok ordered the first temple to the glory of <CHARNAME> be raised, and the city became the holiest of destinations for <PRO_HISHER> followers.
+Sarevok raised <CHARNAME>'s banner and acted with single-minded purpose on a crusade of conversion. He conquered Westgate and gave control to the church, and even Baldur's Gate endured a costly siege at the hands of Sarevok's zealots.
+As the ultimate student of Bhaal's legacy, Sarevok personally selected and trained the elite bishops of the new worship, and appointed a man named Glennaro to the position of High Bloodpriest. A blacksmith, Glennaro had no previous religious experience apart from bellowed curses, but Sarevok admired the man's capable cunning. He presented Sarevok with a replica of his signature armor when petitioning for the position, winning over the son of the Iron Throne.
+On the tenth anniversary of <CHARNAME>'s ascendance, Sarevok called for a jubilee and pilgrimage of the faithful. Saradush, rebuilt again in the image Sarevok dictated, would rock with worship and praise for the hero of Baldur's Gate and inheritor of Bhaal's legacy, culminating in a powerful sacrifice of blood at the Font of Bhaal. Glennaro had grown powerful beyond the dreams of men exploiting the bond Sarevok's guidance had afforded him with <CHARNAME>, but it was not enough to satisfy him. He intended to funnel the powers of the jubilee not to <CHARNAME>, but to himself, draining <CHARNAME>'s essence through the Font. Sarevok had anticipated such treachery, and tortured two of Glennaro's men to learn the secrets.
+The opportunity stirred long-suppressed desires in Sarevok's soul, and as much as the man he had become wished to remain loyal, the man he was took over. When he confronted Glennaro on the day of the sacrifice, he demanded a partnership in the endeavor. But Glennaro had underestimated the energies involved, and as the blood of the faithless poured into the Font and he spoke the fateful words, the powers released were far too strong for the devious pair to handle, and as <CHARNAME>'s raw energies poured forth, the people of Saradush were burned where they stood, and the buildings crumbled from foundation to rooftop in a hellish display. For the second time in a decade, Saradush was laid waste, and the rivers turned to a soup of ash and blood.
+In the end, Sarevok remained a slave to his ambitions. Just as they had once before, those ambitions destroyed him, along with countless others. How gravely this betrayal harmed the ascendant <CHARNAME> is beyond the capacity of mortal storytellers to know--but those who knew <PRO_HIMHER> say <PRO_HESHE> had survived many hardships and heartbreaks in the past, and would, at any cost, endure.~
+
+@101=~Sarevok wasted little time building the cult of allegiance he promised his departed sibling. Among the war-weary survivors of Amkethran and Saradush, he found those willing to swear their lives to the newborn celestial power, and those less eager but fearful of losing what little they had left to the wrath of Sarevok and his patron. It was amidst the still-choking rubble of Saradush that Sarevok ordered the first temple to the glory of <CHARNAME> be raised, and the city became the holiest of destinations for <PRO_HISHER> followers.
+Sarevok raised <CHARNAME>'s banner and acted with single-minded purpose on a crusade of conversion. He conquered Westgate and gave control to the church, and even Baldur's Gate endured a costly siege at the hands of Sarevok's zealots.
+As the ultimate student of Bhaal's legacy, Sarevok personally selected and trained the elite bishops of the new worship, and appointed a man named Glennaro to the position of High Bloodpriest. A blacksmith, Glennaro had no previous religious experience apart from bellowed curses, but Sarevok admired the man's capable cunning. He presented Sarevok with a replica of his signature armor when petitioning for the position, winning over the son of the Iron Throne.
+On the tenth anniversary of <CHARNAME>'s ascendance, Sarevok called for a jubilee and pilgrimage of the faithful. Saradush, rebuilt again in the image Sarevok dictated, would rock with worship and praise for the hero of Baldur's Gate and inheritor of Bhaal's legacy, culminating in a powerful sacrifice of blood at the Font of Bhaal. Glennaro had grown powerful beyond the dreams of men exploiting the bond Sarevok's guidance had afforded him with <CHARNAME>, but it was not enough to satisfy him. He intended to funnel the powers of the jubilee not to <CHARNAME>, but to himself, draining <CHARNAME>'s essence through the Font. Sarevok had anticipated such treachery, and tortured two of Glennaro's men to learn the secrets.
+The opportunity stirred long-suppressed desires in Sarevok's soul, but as much as the man he once was yearned to be set free to achieve his destiny, Sarevok thought better of it. He confronted Glennaro and allowed the priest to believe he wanted to share in the power--a boon only reluctantly granted. When the time to speak the fateful words came, Sarevok speared Glennaro to prevent the casting. The faithful onlookers watched in stunned amazement as the priest's blood poured forth into the font. The blood, tainted by the greed and purpose that was so central to Glennaro's nature, coaxed forth the power he sought all the same, electrifying the air as the force of <CHARNAME> was wrenched into the Prime. The fountain swelled with the celestial force and exploded. Several followers lay dead or wounded in the aftermath, leaving an awestruck mob uncertain as to the will of the power they followed. No trace of Sarevok could be found. Some say he was welcomed into the planes by his <PRO_BROTHERSISTER>, while others say he simply died in the explosion, doing the duty he had pledged. Exactly what became of him, and whether he acted as he did out of loyalty or his binding oath to <CHARNAME>, is beyond the knowledge of mortal storytellers.~
+
+@102=~Sarevok wasted little time building the cult of allegiance he promised his departed sibling. Among the war-weary survivors of Amkethran and Saradush, he found those willing to swear their lives to the newborn celestial power, and those less eager but fearful of losing what little they had left to the wrath of Sarevok and his patron. It was amidst the still-choking rubble of Saradush that Sarevok ordered the first temple to the glory of <CHARNAME> be raised, and the city became the holiest of destinations for <PRO_HISHER> followers.
+As the ultimate student of Bhaal's legacy, Sarevok personally selected and trained the elite bishops of the new worship, and appointed a man named Glennaro to the position of High Bloodpriest. A blacksmith, Glennaro had no previous religious experience apart from bellowed curses, but Sarevok admired the man's capable cunning. He presented Sarevok with a replica of his signature armor when petitioning for the position, winning over the son of the Iron Throne.
+But the priest's time in <CHARNAME>'s service was limited. Before long, it became clear that he could not wield more than a fraction of the power granted to some of the lowly adepts, and he crept away in the night rather than face formal de-frocking. Sarevok lost some influence among the growing faithful, but did his best to soldier on, for a time.
+On the tenth anniversary of <CHARNAME>'s ascendance, Sarevok called for a jubilee and pilgrimage of the faithful. Saradush, rebuilt again in the image Sarevok dictated, would rock with worship and praise for the hero of Baldur's Gate and inheritor of Bhaal's legacy. But the church rejected Sarevok's call to culminate the ceremonies with a large blood sacrifice into the Font of Gorion, saying it did not represent the spirit of mercy they believed their patron wished to foster. Sarevok flew into a rage at this rejection of his authority and began slaughtering the priests, tossing their bodies into the fountain. At the cost of dozens of lives, the crowd eventually disarmed and overwhelmed the mighty Deathbringer, exiling him from the city he rebuilt. Accounts of his journeys grow spotty from that point, placing him everywhere from Westgate to Maztica. Years later, an acolyte coming in for morning vespers at a small temple to <CHARNAME> found a fire-blackened form in armor matching the sketches of Sarevok kneeling at the temple's altar. The charred man still clutched a mighty blade, later identified as the Sword of Chaos, which he had apparently driven clear through the pedestal.~
+
+@103=~Sarevok wasted little time building the cult of allegiance he promised his departed sibling. Among the war-weary survivors of Amkethran and Saradush, he found those willing to swear their lives to the newborn celestial power, and those less eager but fearful of losing what little they had left to the wrath of Sarevok and his patron. It was amidst the still-choking rubble of Saradush that Sarevok ordered the first temple to the glory of <CHARNAME> be raised, and the city became the holiest of destinations for <PRO_HISHER> followers.
+As the ultimate student of Bhaal's legacy, Sarevok personally selected and trained the elite bishops of the new worship, and appointed a man named Glennaro to the position of High Bloodpriest. A blacksmith, Glennaro had no previous religious experience apart from bellowed curses, but Sarevok admired the man's capable cunning. He presented Sarevok with a replica of his signature armor when petitioning for the position, winning over the son of the Iron Throne.
+But the priest's time in <CHARNAME>'s service was limited. Before long, it became clear that he could not wield more than a fraction of the power granted to some of the lowly adepts, and he crept away in the night rather than face formal de-frocking. Sarevok lost some influence among the growing faithful, but did his best to soldier on, for a time.
+On the tenth anniversary of <CHARNAME>'s ascendance, Sarevok called for a jubilee and pilgrimage of the faithful. Saradush, rebuilt again in the image Sarevok dictated, would rock with worship and praise for the hero of Baldur's Gate and inheritor of Bhaal's legacy. But the church rejected Sarevok's call to culminate the ceremonies with a large blood sacrifice into the Font of Gorion, saying it did not represent the spirit of mercy they believed their patron wished to foster. In his mind, Sarevok could see himself gutting the insolent priests where they stood and tossing their spent bodies into the fountain to satisfy his demands, but he stayed his hand and grudgingly conceded that <CHARNAME> had not inherited Bhaal's traits so thoroughly as he had hoped his <PRO_BROTHERSISTER> would.
+For the first time in a decade, Sarevok stopped preaching and began listening, and what he heard troubled him deeply. He came to question all that he had done in <CHARNAME>'s name, and struggled to see his role in what the clerics told him was a doctrine not of backstabbing and betrayal, but one of natural closure.
+Eventually, he left behind Saradush and the movement which had grown beyond his understanding. Most historians lost track of his movements at this stage. Wherever a frightening figure loomed or things went bump in the night, it was said that Sarevok, full of fury, was not far from the scene. In truth, he journeyed to Kara-Tur, seeking closure from the burial of his one true love, the warrior Tamoko. He never returned, though the stories endure.~
+
+

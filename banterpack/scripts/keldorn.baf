@@ -1,0 +1,47 @@
+IF
+InParty(Myself)
+GlobalGT("BKeldorn16","LOCALS",0)
+Global("FWBanterKelValGods","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("FWBanterKelValGods","GLOBAL",1)
+END
+
+IF
+InParty(Myself)
+InParty("Minsc")
+Global("Chapter","GLOBAL",%bg2_chapter_6%)
+AreaCheck("AR0808")
+Global("FWBanterMinscVamp","LOCALS",0)
+THEN
+RESPONSE #100
+RealSetGlobalTimer("FWKeldornMinscVamp","LOCALS",50)
+SetGlobal("FWBanterMinscVamp","LOCALS",1)
+END
+
+IF
+InParty(Myself)
+InParty("Minsc")
+See("Minsc")
+!Dead("Minsc")
+Global("Chapter","GLOBAL",%bg2_chapter_6%)
+RealGlobalTimerExpired("FWKeldornMinscVamp","LOCALS")
+CombatCounter(0)
+    !See([ENEMY])
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck("Minsc",CD_STATE_NOTVALID)
+Global("FWBanterMinscVamp","LOCALS",1)
+OR(3)
+AreaCheck("AR0800")
+AreaCheck("AR0808")
+AreaCheck("AR0809")
+!Dead("C6BODHI")
+THEN
+RESPONSE #100
+SetGlobal("FWBanterMinscVamp","LOCALS",2)
+Interact("Minsc")
+END
+
+
+
+

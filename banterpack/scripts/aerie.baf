@@ -1,0 +1,53 @@
+IF
+GlobalGT("AnomenUpset","LOCALS",0)
+Global("FWBanterAnoAttackedAerie","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("FWBanterAnoAttackedAerie","GLOBAL",1)
+END
+
+IF
+AreaCheck("AR2100")
+InParty(Myself)
+InParty("Imoen2")
+Global("FWAerieImmyInUD","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("FWAerieImmyInUD","GLOBAL",1)
+END
+
+IF
+G("Chapter",%bg2_chapter_6%)
+Global("FWAerieImmyInUD","GLOBAL",1)
+InParty(Myself)
+InParty("Imoen2")
+    CombatCounter(0)
+    !See([ENEMY])
+THEN
+RESPONSE #100
+SetGlobal("FWAerieImmyInUD","GLOBAL",2)
+RealSetGlobalTimer("FWAerieImmyUD","LOCALS",500)
+END
+
+IF
+G("Chapter",%bg2_chapter_6%)
+Global("FWAerieImmyInUD","GLOBAL",2)
+RealGlobalTimerExpired("FWAerieImmyUD","LOCALS")
+InParty(Myself)
+InParty("Imoen2")
+!Dead("Imoen2")
+AreaType(OUTDOOR)
+    CombatCounter(0)
+    !See([ENEMY])
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck("Imoen2",CD_STATE_NOTVALID)
+THEN
+RESPONSE #100
+SetGlobal("FWAerieImmyInUD","GLOBAL",3)
+Interact("Imoen2")
+END
+
+
+
+
+
