@@ -1,5 +1,5 @@
                               Banter Packs
-                               VERSION 17
+                               VERSION 18
               A Pocket Plane Group Project for Baldur's Gate 2
 	              http://www.pocketplane.net
 
@@ -137,6 +137,11 @@ since a dialogue involving the PC would need to be interactive in the game.
 
 
 Version History:
+
+V18
+-added install order syntax to .ini and globally unique LABELs to support Project Infinity
+-typo corrections
+-weidu updated to v247
 
 V17
 -added .ini file with mod info and the GitHub address for download
