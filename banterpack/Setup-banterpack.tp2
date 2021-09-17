@@ -1,7 +1,7 @@
 BACKUP ~banterpack\Backup~
 //AUTHOR ~PocketPlaneGroup~ //jcompton@forgottenwars.net
 SUPPORT ~http://forums.pocketplane.net/index.php/board,6.0.html~
-VERSION ~v17~ 
+VERSION ~v18~ 
 README ~banterpack\banter-readme.txt~
 
 ALWAYS  
@@ -94,6 +94,8 @@ LANGUAGE ~Chinese (Translated by Merzbau)~
          ~banterpack/schinese/setup.tra~
 
 BEGIN @1
+DESIGNATED 0
+LABEL PPGBanterPacks-soa
 
 // Ensures banters won't run in BG1 section in Baldur's Gate Trilogy, thanks K'aeloree
 ACTION_IF GAME_IS ~BGT eet~ THEN BEGIN
@@ -166,6 +168,8 @@ COPY ~banterpack/cre/fwlilcor.cre~ ~override/fwlilcor.cre~
 
 
 BEGIN @93
+DESIGNATED 1
+LABEL PPGBanterPacks-soa_banteraccelerator
 FORBID_FILE ~override\bantergoose.xxx~ @94
 
 COPY ~banterpack\bantergoose\bantergoose.xxx~ ~override\bantergoose.xxx~
@@ -173,6 +177,8 @@ EXTEND_TOP ~baldur.bcs~ ~banterpack\bantergoose\bantergoose.baf~  EVALUATE_BUFFE
 
 
 BEGIN @14
+DESIGNATED 2
+LABEL PPGBanterPacks-tob
 REQUIRE_PREDICATE GAME_INCLUDES ~tob~ @15
 
 EXTEND_TOP ~vico25.bcs~ ~banterpack/scripts/vico25.baf~
@@ -198,6 +204,8 @@ COPY_EXISTING ~SAREVND.2DA~ ~override\PGSAREV4.2DA~
 
 
 BEGIN @95
+DESIGNATED 3
+LABEL PPGBanterPacks-tob_banteraccelerator
 FORBID_FILE ~override\bantergoosetob.xxx~ @96
 
 COPY ~banterpack\bantergoose\bantergoose.xxx~ ~override\bantergoosetob.xxx~
