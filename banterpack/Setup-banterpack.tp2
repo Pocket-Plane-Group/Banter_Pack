@@ -23,7 +23,7 @@ ACTION_IF !FILE_EXISTS ~banterpack/backup/banterpackreinstall.mrk~ BEGIN
   /* adds custom IsValidForPartyDialogue state */
   APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~ UNLESS ~CD_STATE_NOTVALID~
 
-
+  ACTION_DEFINE_ARRAY fl#noconvert BEGIN install END
   ACTION_DEFINE_ARRAY fl#reload BEGIN setup END
 
    LAF HANDLE_CHARSETS
@@ -32,6 +32,7 @@ ACTION_IF !FILE_EXISTS ~banterpack/backup/banterpackreinstall.mrk~ BEGIN
     STR_VAR
       default_language = ~english~
       tra_path = EVAL ~%MOD_FOLDER%~
+      noconvert_array = fl#noconvert
       reload_array = fl#reload
   END
   COPY ~banterpack/component.xx~ ~banterpack/backup/banterpackreinstall.mrk~
@@ -39,7 +40,7 @@ END //banterpackreinstall.mrk
 
 LOAD_TRA ~banterpack/english/setup.tra~
 LOAD_TRA ~banterpack/%LANGUAGE%/setup.tra~
-
+LOAD_TRA ~banterpack/%LANGUAGE%/setup-%WEIDU_OS%.tra~
 
 ACTION_IF GAME_IS ~bg2ee eet~ THEN BEGIN
   LOAD_TRA ~banterpack/english/setup-ee.tra~
@@ -88,10 +89,10 @@ LANGUAGE ~Korean (Translated by Tannedbear)~
          ~banterpack/english/setup.tra~
          ~banterpack/korean/setup.tra~
 
-LANGUAGE ~Chinese (Translated by Merzbau)~
+LANGUAGE ~Simplified Chinese (Translated by Merzbau)~
          ~schinese~
          ~banterpack/english/setup.tra~
-         ~banterpack/schinese/setup.tra~
+         ~banterpack/schinese/install.tra~
 
 BEGIN @1
 DESIGNATED 0
